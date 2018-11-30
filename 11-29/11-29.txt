@@ -1,0 +1,14 @@
+structure of web page
+headings
+unorderedList
+nesting right way
+orderedList
+inline vs block
+strong bold
+linebreaks && horizontal rules
+links and images
+target blank
+most used attributes
+html quotes
+charset utf-8 && reserved charecters
+symatic html elements

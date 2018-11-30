@@ -1,0 +1,180 @@
+<!-- structure of a web page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata goes here -->
+</head>
+
+<body>
+    <!-- Content goes here -->
+    <!-- headings -->
+    <p>First, we need to learn some basic HTML.</p>
+    <h1>Interneting Is Easy!</h1>
+
+    <h2>Headings</h2>
+    <p>Headings define the outline of your site. There are six levels of headings.
+    </p>
+
+    <!-- unorderedList -->
+    <ul>
+        <li>Add a "ul" element (it stands for unordered list)</li>
+        <li>Add each item in its own "li" element</li>
+        <li>They don't need to be in any particular order</li>
+    </ul>
+
+    <!-- (This is bad!) -->
+    <ul>
+        <p>Add a "ul" element (it stands for unordered list)</p>
+    </ul>
+
+    <!-- (Do this instead) -->
+    <ul>
+        <li>
+            <p>Add a "ul" element (it stands for unordered list)</p>
+        </li>
+    </ul>
+
+    <!-- orderedList -->
+    <p>This is what an ordered list looks like:</p>
+
+    <!-- reversed,start,type -->
+    <ol type="A">
+        <li>Notice the new "ol" element wrapping everything</li>
+        <li>But, the list item elements are the same</li>
+        <li>Also note how the numbers increment on their own</li>
+        <li>You should be noticing things is this precise order, because this is an ordered list</li>
+    </ol>
+
+    <!-- inline vs block  -->
+    <!-- p,h1,div,ol,li,ul,form && span,img,a -->
+    <h2>block level element2</h2>
+    <h1>block level3</h1>
+    <h1>Block level element1</h1>
+    <span>inline 1</span>
+    <span>inline 2</span>
+
+
+    <div>
+
+    </div>
+    <div></div>
+    <div style="background: red" id="a" class="c">red</div>
+
+    <p>
+        <em>Sometimes</em>, you need to draw attention to a particular word or phrase.
+    </p>
+
+    <!-- (Again, don't ever do this) proper nesting-->
+    <p>This is some
+        <em>emphasized text</p>
+    </em>
+
+    <!-- strong bold -->
+    <p>Other times you need to
+        <strong>strong</strong>ly emphasize the importance of a word or phrase.</p>
+    <p>
+        <I>
+            <strong>And sometimes you need to shout!</strong>
+        </I>
+    </p>
+
+    <!-- linebreaks && horizontal rules -->
+    <h2>Empty Elements</h2>
+
+    <p>Thanks for reading! Interneting should be getting easier now.</p>
+
+    <p>Regards, The Authors</p>
+
+    <p>Regards,
+        <br/> The Authors</p>
+
+    <hr/>
+    <!--  optinal / -->
+
+    <p>P.S. This page might look like crap, but we'll fix that with some CSS soon.
+    </p>
+
+    <!-- links and images -->
+    <p>This example is about links and
+        <a href='images.html'>images</a>.</p>
+    <img src="https://placeimg.com/640/480/nature" alt="nature" title="nature">
+
+    <li>Absolute links, like to
+        <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>Mozilla Developer Network</a>, which is a very good resource for web developers.
+    </li>
+
+    <li>Relative links, like to our
+        <a href='misc/extras.html'>extras page
+        </a>.
+    </li>
+
+    <p>This page is about miscellaneous HTML things, but you may also be interested in
+        <a href='links.html'>links</a> or
+        <a href='images.html'>images</a>.
+    </p>
+
+    <a href="mailto:shay@awesome.com?subject=Reaching%20Out&body=How%20are%20you">Email Me</a>
+
+
+    <!-- target blank -->
+    <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'>Mozilla Developer Network</a>
+
+    <!-- naming conventions no spaces-->
+    <!-- don't create a file with a space -->
+    <!-- images -->
+
+    <img src='some-photo.jpg' />
+
+    <!-- In JPGs section -->
+    <a href="https://placeimg.com/640/480/people" target="_blank">
+        <img src='https://placeimg.com/640/480/people' width='1075' title="img" alt='A mochi ball in a bubble' />
+    </a>
+
+    <!-- In GIFs section -->
+    <img src='images/mochi.gif' width='75' alt='A dancing mochi ball' />
+
+    <!-- In PNGs section -->
+    <img src='images/mochi.png' width='75' alt='A mochi ball' />
+
+    <!-- In SVGs section -->
+    <img src='images/mochi.svg' alt='A mochi ball with Bézier handles' />
+
+
+    <html lang='en'>
+
+    </html>
+
+    <figure>
+        <img src='semantic-elements.png' alt='Diagram showing article, section, and nav elements' />
+        <figcaption>New HTML5 semantic elements</figcaption>
+    </figure>
+
+    <!-- <meta charset='UTF-8'/> -->
+    <!-- reserved characters -->
+    <h2>HTML Entities</h2>
+    <p>There are three reserved characters in HTML: &lt; &gt; and &amp;. You should always use HTML entities for these three
+        characters.
+    </p>
+    <!-- quotes -->
+    <p>If you&rsquo;re into &ldquo;web typography,&rdquo; you&rsquo;ll also find yourself using curly quotes quite a bit.</p>
+
+
+    <!-- Few symantic html elements
+            <article>
+                <aside>
+                <details>
+                <figcaption>
+                <figure>
+                <footer>
+                <header>
+                <main>
+                <mark>
+                <nav>
+                <section>
+                <summary>
+                <time>-->
+</body>
+
+</html>
