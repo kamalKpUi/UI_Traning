@@ -1,0 +1,164 @@
+/* precedence */
+p {
+    background: orange;
+    font-size: 24px;
+}
+p {
+    background: green;
+}
+/* precedence in property */
+p {
+    background: orange;
+    background: green;
+}
+/* type vs id */
+#food {
+    background: green;
+}
+p {
+    background: orange;
+}
+.hotdog p {
+    background: brown;
+  }
+  .hotdog p.mustard {
+    background: yellow;
+  }
+  
+  /* mutliple styles */
+  .btn {
+    font-size: 16px;
+  }
+  .btn-danger {
+    background: red;
+  }
+  .btn-success {
+    background: green;
+  }
+  /*Color	Name	Hex Values	RGB Values	HSL Values  */
+  /* black	#000000	rgb(0, 0, 0)	hsl(0, 0%, 0%)hue, saturation, and lightness */
+
+  /* box modal */
+  div {
+    border: 6px solid #949599;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+  }
+  /*
+Width: 492px = 20px + 6px + 20px + 400px + 20px + 6px + 20px
+Height: 192px = 20px + 6px + 20px + 100px + 20px + 6px + 20px  
+  */
+
+  div > p {
+    background-color: yellow;
+}
+
+/* div + p {
+    background-color: yellow;
+} */
+
+/* div ~ p {
+    background-color: yellow;
+} */
+
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+p:first-child i {
+    color: blue;
+}
+/* pseudo elements */
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+}
+#food {
+    -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg);
+}
+/* *,
+*:before,
+*:after {
+   box-sizing: border-box;
+} */
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.account-info {
+  padding: 20px 20px 0 20px;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+/* background-image: linear-gradient(red, yellow); */

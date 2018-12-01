@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Html & css</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="11-30.css" />
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <p>Hello</p>
+    <p id="food">...</p>
+
+    <div class="hotdog">
+        <p>...</p>
+        <p>...</p>
+        <p class="mustard">...</p>
+    </div>
+      <!-- multiple styles -->
+      <div class="btn btn-danger">...</div>
+      <div class="btn btn-success">...</div>
+
+      <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <span><p>Paragraph 3 in the div.</p></span> <!-- not Child but Descendant -->
+      </div>
+      
+      <p>Paragraph 4. Not in a div.</p>
+      <p>Paragraph 5. Not in a div.</p>
+      
+      <form action="">
+        <input type="date" name="birthday">
+        <input type="time" name="game-time">
+        <input type="email" name="email-address">
+        <input type="url" name="website">
+        <input type="number" name="cost">
+        <input type="tel" name="phone-number">
+        
+        <input type="radio" name="day" value="Friday" checked> Friday
+        <input type="radio" name="day" value="Saturday"> Saturday
+        <input type="radio" name="day" value="Sunday"> Sunday
+        
+        <input type="checkbox" name="day" value="Friday" checked> Friday
+        <input type="checkbox" name="day" value="Saturday"> Saturday
+        <input type="checkbox" name="day" value="Sunday"> Sunday
+        
+        <select name="day">
+            <option value="Friday" selected>Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+          </select>
+          
+          <select name="day" multiple>
+            <option value="Friday" selected>Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+          </select>
+          
+          <input type="submit" name="submit" value="Send">
+          
+          <input type="file" name="file">
+          
+          <label>
+            <input type="radio" name="day" value="Friday" checked> Friday
+          </label>
+          <label>
+            <input type="radio" name="day" value="Saturday"> Saturday
+          </label>
+          <label>
+            <input type="radio" name="day" value="Sunday"> Sunday
+          </label>
+          
+          <input type="text" name="username" disabled>
+          <input type="email" name="email-address" placeholder="name@domain.com">
+          <input type="email" name="email-address" required>
+
+          <form>
+            <fieldset class="account-info">
+              <label>
+                Username
+                <input type="text" name="username">
+              </label>
+              <label>
+                Password
+                <input type="password" name="password">
+              </label>
+            </fieldset>
+            <fieldset class="account-action">
+              <input class="btn" type="submit" name="submit" value="Login">
+              <label>
+                <input type="checkbox" name="remember"> Stay signed in
+              </label>
+            </fieldset>
+          </form>
+          
+      </form>
+</body>
+</html>
